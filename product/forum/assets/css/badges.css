@@ -1,0 +1,93 @@
+/*
+	Badges:
+*/
+
+.badges{
+	margin-top: 15px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.badges div{
+	margin: 0px;
+	padding: 0px;
+	margin-left: 6px;
+	margin-right: 14px;
+	background: #ddd;
+	color: #000;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 3px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 220px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.badges div p{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+/*
+	colors:
+	RED
+	GREEN
+	DEFAULT
+	YELLOW
+	BLUE
+	LIGHT-GREEN
+	LIGHT-RED
+	GRAY
+*/
+
+.badges .red{
+	color: #ecf0f1;
+	background: #c0392b;
+}
+
+.badges .green{
+	color: #ecf0f1;
+	background: #27ae60;
+}
+
+.badges .default{
+	color: #000;
+}
+
+.badges .yellow{
+	color: #000;
+	background: #f1c40f;
+}
+
+.badges .blue{
+	color: #ecf0f1;
+	background: #2980b9;
+}
+
+.badges .l-green{
+	color: #ecf0f1;
+	background: #2ecc71;
+}
+
+.badges .l-red{
+	color: #ecf0f1;
+	background: #e74c3c;
+}
+
+.badges .gray{
+	color: #000;
+	background: #7f8c8d;
+}
+
+#noBac{
+	background: none;
+	width: 100%;
+}
+

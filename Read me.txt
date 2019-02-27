@@ -1,0 +1,10 @@
+Hello Client,
+
+This is auto generated.
+
+This folder called "product" contains all pages you requested!
+
+Order : Mustang Exotics
+
+Regards,
+Chiera

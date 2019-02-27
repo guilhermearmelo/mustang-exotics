@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+@font-face{
+	font-family: Nexa Bold;
+    src: url(font1.otf);
+}
+@font-face{
+	font-family: Nexa Light;
+    src: url(font2.otf);
+}
+@font-face{
+	font-family: Product Regular;
+    src: url(font0.ttf);
+}
+
+@font-face{
+	font-family: Product Bold;
+	src: url(font.tff);
+}
+
+@font-face{
+	font-family: customMedium;
+	src: url(custom_medium.otf);
+}
+
+@font-face{
+	font-family: customBook;
+	src: url(custom_book.otf);
+}
+
+@font-face{
+	font-family: customLight;
+	src: url(custom_light.otf);
+}
+
+@font-face{
+	font-family: customAll;
+	src: url(custom_all.ttc);
+}
+
+body, html{
+	margin: 0px;
+	padding: 0px;
+	outline: 0;
+	background: #ecf0f1;
+	font-family: Product Sans;
+}
+
+::selection{
+	background: rgba(0,0,0,0.2);
+}
+
+.longHeader{
+	margin: 0px;
+	padding: 7vh;
+	background: linear-gradient(to right, rgba(0,0,0,.9), rgba(0,0,0,0)) , url(https://images.pexels.com/photos/981035/pexels-photo-981035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: blur(30px);
+  	-webkit-filter: blur(30px);
+  	transition: 1.5s ease;
+  	z-index: -1;
+}
+
+.minimizeBlur{
+	filter: blur(0px);
+  	-webkit-filter: blur(0px);
+}
+
+.brandingLogo{
+	margin: 0px;
+	padding: 0px;
+	z-index: 2;
+	filter: blur(0px);
+  	-webkit-filter: blur(0px);
+  	font-family: Nexa Bold;
+  	font-weight: 800;
+  	color: #ecf0f1;
+  	font-size: 60px;
+}
+
+.forumNav{
+	width: 100%;
+	background: #2f3640;
+	padding: 20px;
+}
+
+.forumNav a{
+	padding: 0px;
+	margin: 0px;
+	color: #ecf0f1;
+	padding: 0px 15px 0px 15px;
+	font-family: Nexa Light;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.forumNav .active{
+	color: rgb(255,255,255,.5);
+}
+
+.mainPane{
+	padding: 10px;
+	background: #dcdde1;
+}
+
+.linksPane, .sidePane{
+	padding: 30px;
+	background: #fff;
+}
+
+.linksPane{
+	padding-right: 5px;
+	overflow: hidden;
+}
+
+.cMod{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sectionDisplay{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	overflow: hidden;
+	padding: 12px 12px 12px 12px;
+	background: rgb(0,0,0,.85);
+	margin-bottom: 10px;
+}
+
+.sectionDisplay p{
+	margin: 0px;
+	padding: 0px;
+	color: #ecf0f1;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+}
+
+.threadLink p{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	color: #2e86de;
+}
+
+.threadLink p:hover{
+	text-decoration: underline;
+}
+
+.threadLink{
+	margin: 0px;
+	padding: 0px;
+	padding: 8px 26px 8px 26px;
+}
+
+.tSide{
+	clear: both !important;
+	color-rendering: optimizeSpeed !important;
+	color: rgba(0,0,0,.6) !important;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+	margin-top: -33px !important;
+	font-size: 13px !important;
+	text-decoration: none !important;
+}
+
+.boxLatest{
+	padding: 4px 8px 4px 8px;
+	background: #ddd;
+	margin-left: 10px;
+	margin-top: -35px;
+}
+
+.boxLatest p{
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+	font-size: 12px;
+	width: 168px;
+	text-align: left;
+}
+
+.tSperator{
+	clear: both;
+	content: " ";
+	padding: 0px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-top: 1px solid #ddd;
+}
+
+.sBox{
+	background: #ddd;
+	border-radius: 2px;
+	padding: 30px 15px 30px 15px;
+	color: #ecf0f1;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sBox a{
+	margin: 0px;
+	padding: 0px;
+	background: rgb(0,0,0,.6);
+	padding: 8px 5px 8px 5px;
+	width: 200px;
+	cursor: pointer;
+}
+
+.sBoxAdvert{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sBoxAdvert img{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.innerBox{
+	margin-left: 9px;
+	margin-right: 9px;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px 5px 10px 5px;
+	background: rgb(0,0,0,.14);
+	margin-top: -14px;
+}
+
+.innerBox p{
+	margin: 0px;
+	color: rgb(0,0,0,.6);
+	font-size: 14.5px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.recentPost{
+	padding: 14px;
+}
+
+.recentPost img{
+	width: 40px;
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+}
+
+.recentPost p{
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+	font-size: 14px;
+	margin-left: 8px;
+}
+
+.threadLink img{
+	margin: 0px;
+	padding: 0px;
+	width: 25px;
+	border-radius: none;
+	margin-right: 10px;
+}
+
+#threadTitle{
+	font-family: Nexa Bold;
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+#smallText{
+	color: #7f8c8d;
+	font-family: Nexa Light;
+	font-size: 13px;
+	margin: 0px;
+	margin-top: -8px;
+}
+
+#statusT{
+	font-family: Nexa Bold;
+	font-size: 15px;
+}
+
+.sBox2{
+	background: #ddd;
+	border-radius: 2px;
+	padding: 30px 15px 30px 15px;
+	color: #ecf0f1;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 24px;
+}
+
+.innerBox2{
+	margin-right: 15px;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	padding: 20px 5px 20px 5px;
+	background: rgb(0,0,0,.14);
+	margin-top: -14px;
+}
+
+.innerBox2 p{
+	font-family: Nexa Light;
+	font-size: 14px;
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+}
+
+.userBox{
+	background: rgba(87, 101, 116,.4);
+	padding: 15px 10px 15px 10px;
+}
+
+.userImage , .userImage img{
+	margin: 0px;
+	padding: 0px;
+	width: 75px;
+}
+
+.uSep{
+	content: " ";
+	background: none;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	width: 80%;
+	margin-left: 20px;
+	border-top: 1px solid rgba(34, 47, 62,1.0);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.userName3 p{
+	font-family: Nexa Bold !important;
+	font-size: 17.5px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	color: #000 !important;
+	margin-top: 0px !important;
+}
+
+.userText{
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	margin: 0px;
+	color: #000;
+	margin-bottom: -12px !important;
+}
+
+.threadArea p{
+	color: #000;
+	font-size: 15px;
+	font-family: Nexa Light;
+}
+
+.thSep{
+	content: " ";
+	background: none;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	width: 100%;
+	margin-left: 15px;
+	margin-right: 30px;
+	border-top: 1px dashed rgba(34, 47, 62,.6);
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.tDetails{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	margin-right: 15px;
+	color: #576574;
+	margin-bottom: 0px;
+}
+
+.tDetails p{
+	margin: 0px;
+	padding: 0px;
+}
+
+#replyText{
+	font-family: Nexa Bold;
+	color: #000;
+	font-size: 30px;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+
+.liveChatPanel{
+	background: #ecf0f1;
+	padding: 28px;
+	margin: 0px;
+	color: #000;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 40px;
+}
+
+#liveChatHeading{
+	margin: 0px;
+	padding: 0px;
+	font-size: 40px;
+	color: #000;
+	font-family: Nexa Bold;
+	margin-right: 15px;
+}
+
+.liveChatPanel hr{
+	margin: 0px;
+	padding: 0px;
+	width: 90%;
+	background: none;
+	color: none;
+	content: " ";
+	border-top: 1px solid #636e72;
+	margin-bottom: 25px;
+}
+
+.chat p{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	margin: 5px;
+	margin-bottom: 8px;
+}
+
+.chat span{
+	cursor: pointer;
+}
+
+.chat a{
+	color: #0984e3;
+	text-decoration: none;
+	font-size: 14px !important;
+}
+
+.chat a:hover{
+	text-decoration: underline;
+}
+
+.chat{
+	height: 35vh;
+}
+
+#messageToBeSentBox{
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	border: none;
+	content: " ";
+	border-radius: none;
+	font-family: Nexa Light;
+	background: #ffffffff;
+	border-radius: 200px;
+	width: 870px;
+	padding: 5px 20px 5px 20px;
+	margin-left: 25px;
+	box-shadow: 1px 5px 30px 4px rgba(0,0,0,0.1);
+}
+
+#promot{
+	color: #2d3436;
+	font-family: Nexa Light;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.fa-play{
+	font-size: 27px;
+	color: #27ae60;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+#supportHeadingText{
+	content: " ";
+	font-family: Nexa Bold;
+	margin: 0px;
+	padding: 0px;
+	font-size: 46px;
+	color-rendering: optimizeSpeed;
+	color: #000;
+	text-align: center;
+	padding: 8px;
+	margin-right: 15px;
+}
+
+#lineAbove1{
+	content: " ";
+	clear: both;
+	background: none;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 5px;
+	border-top: 2.5px solid #000;
+	width: 80px;
+	border-radius: 10px;
+	margin-right: 18px;
+}
+
+.subText{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	color: rgba(0,0,0,.6);
+	font-family: Nexa Light;
+	margin-top: -5px;
+	margin-bottom: 25px;
+}
+
+.boxOfSupport{
+	padding: 30px;
+	margin: 0px;
+	background: rgb(0,0,0,.35);
+	margin-top: 15px;
+	width: 350px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.iconInSupport{
+	padding: 13px 15px 13px 15px;
+	border-radius: 200px;
+	background: rgba(0,0,0,.2);
+}
+
+.fa-twitter, .fa-envelope, .fa-file-alt{
+	font-size: 25px;
+}
+
+.boxOfSupport p{
+	margin: 0px;
+	padding: 0px;
+	color-rendering: optimizeSpeed;
+	color: #000;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navBox{
+	margin: 0px;
+	padding: 0px;
+	padding: 30px;
+	margin-left: 10px;
+	margin-top: 0px;
+	background: rgb(0,0,0,.2);
+	height: 100vh;
+}
+
+.navHeader{
+	font-family: Nexa Bold;
+	font-size: 28px;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+.navBox hr{
+	margin: 0px;
+	padding: 0px;
+	color: none;
+	background: none;
+	border: none;
+	border-radius: 0px;
+	width: 60%;
+	border-top: 1px solid #000;
+	margin-bottom: 25px;
+}
+
+.navBox h2{
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+	font-family: 'Source Code Pro', monoscape;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+.navBox ul, .navBox ul li{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15.5px;
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 15px;
+	list-style: none;
+	margin-top: 6px;
+}
+
+.wikiText p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+}
+
+.wikiTitle{
+	font-family: Nexa Bold;
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Mobile Phone Responisve */
+@media (min-width: 320px) and (max-width: 480px) {
+
+	#forumTez{
+		display: none
+	}
+	#messageToBeSentBox{
+		width: 200px;
+	}
+}
+
+/* Browser Response */
+
+@media (max-width: 720px){
+
+	.cartView{
+		height: auto;
+	}
+	#messageToBeSentBox{
+		width: 200px;
+	}
+	
+}

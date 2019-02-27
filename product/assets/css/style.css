@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+@font-face{
+	font-family: Nexa Bold;
+    src: url(font1.otf);
+}
+@font-face{
+	font-family: Nexa Light;
+    src: url(font2.otf);
+}
+@font-face{
+	font-family: Product Regular;
+    src: url(font0.ttf);
+}
+
+@font-face{
+	font-family: Product Bold;
+	src: url(font.tff);
+}
+
+@font-face{
+	font-family: customMedium;
+	src: url(custom_medium.otf);
+}
+
+@font-face{
+	font-family: customBook;
+	src: url(custom_book.otf);
+}
+
+@font-face{
+	font-family: customLight;
+	src: url(custom_light.otf);
+}
+
+@font-face{
+	font-family: customAll;
+	src: url(custom_all.ttc);
+}
+
+body, html{
+	margin: 0px;
+	padding: 0px;
+	outline: 0;
+	background: #ffffff;
+	font-family: Product Sans;
+}
+
+::selection{
+	background: rgba(0,0,0,0.2);
+}
+
+.imgHeading{
+	background: url(../img/header.jpeg);
+	height: 92.15vh;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-sizing: 
+}
+
+.bg-light{
+	background: #1e272e !important;
+	padding: 0px;
+	margin: 0px;
+	padding: 6px;
+	padding-left: 45px;
+	padding-right: 45px;
+	box-shadow: 1px 5px 20px 4px rgba(0,0,0,0.4);
+}
+
+.nav-link{
+	color: rgba(255,255,255, 0.6) !important;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	background: #353b48;
+	border-radius: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 100px;
+	text-align: center;
+	padding: 0px;
+	padding: 5px 10px 5px 10px;
+}
+
+.nav-link:hover{
+	color: rgba(255,255,255,0.8) !important;
+}
+
+.activePage, .activePage:hover{
+	background: #34495e;
+	color: #ecf0f1 !important;
+}
+
+.searchBox, .searchBox:hover, .searchBox:focus{
+	border-radius: 200px;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	padding: 4px 18px 4px 18px;
+	margin-right: 50px !important;
+	background: #f1c40f;
+	color: #ffffff !important;
+	width: 230px !important;
+	box-shadow: none;
+}
+
+.searchBox::placeholder{
+	color: #ffffff !important;
+	content: " ";
+}
+
+.navbar-brand{
+	font-family: Product Sans;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #ffffff !important;
+	margin-right: 55px;
+	margin-left: 25px;
+}
+
+.gold{
+	color: #f1c40f;
+}
+
+#welcome{
+	color: #636e72;
+	font-family: Product Sans;
+	font-size: 35px;
+	margin-top: 60px;
+}
+
+.branding{
+	font-weight: 800;
+}
+
+#breif{
+	width: 600px;
+	margin-top: 10px;
+	color: #535c68;
+}
+
+.box{
+	background: #1e272e;
+	padding: 10px 15px 10px 15px;
+	margin-top: 50px;
+	width: 540px;
+}
+
+.box p{
+	margin: 0px;
+	padding: 0px;
+	color: #95a5a6;
+}
+
+#ford{
+	font-weight: 700;
+	color: #ecf0f1;
+	font-family: Nexa Bold;
+	font-size: 25px;
+}
+
+#mustang{
+	color: #ecf0f1;
+	font-weight: 400;
+	font-family: Nexa Light;
+	font-size: 40px;
+	margin-top: -15px;
+}
+
+#fordLogo{
+	margin: 0px;
+	padding: 0px;
+	opacity: 0.4;
+	width: 110px;
+	margin-top: -70px;
+	height: 60px;
+	margin-right: 25px;
+	transition: .6s ease;
+}
+
+#fordLogo:hover{
+	cursor: pointer;
+	opacity: 1.0;
+}
+
+.divider{
+	margin: 0px;
+	padding: 0px;
+	width: 80%;
+	background: none;
+	content: "";
+	border: none;
+	border-top: 1px solid #7f8c8d;
+}
+
+.bgBlack{
+	box-shadow: -610px 0px rgba(0,0,0,1) inset;
+	transition: 2s ease;
+}
+
+.bgClear{
+	box-shadow: 0 0px rgba(0,0,0,1) inset;
+	clear: both;
+	transition: 2s ease;
+}
+
+.disappear{
+	opacity: 0;
+}
+
+.appear{
+	opacity: 1;
+}
+
+.cTrims{
+	background: #ecf0f1;
+	padding: 80px;
+}
+
+.introduction{
+	margin: 0px;
+	padding: 0px;
+	font-family: Nexa Light;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.trimBox{
+	margin: 0px;
+	padding: 0px;
+	padding: 30px;
+	border-radius: 40px 40px 0px 0px;
+	background: #ffffff;
+	border-bottom: 3px solid #7f8c8d;
+	box-shadow: 1px 5px 20px 4px rgba(0,0,0,0.07);
+	width: 250px;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.trimBox .car img{
+	width: 150px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.trimBox p{
+	margin: 0px;
+	padding: 0px;
+}
+
+.trimBox hr{
+	margin: 0px;
+	padding: 0px;
+}
+
+.trimBoxHeading{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: 600;
+}
+
+.trimBoxSubHeading{
+	font-family: 'Poppins', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-weight: 400;
+}
+
+.props{
+	margin-top: 15px;
+}
+
+.props hr{
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	content: "";
+	border: none;
+	border-top: 1px solid #7f8c8d;	
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.light{
+	font-family: 'Poppins', sans-serif;
+	color: #535c68;
+}
+
+.bold{
+	font-family: 'Poppins', sans-serif;
+}
+
+.trimBox a{
+	color: #000;
+	text-decoration: none;
+	text-transform: none;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 15px;
+}
+
+.box2{
+	background: rgb(0,0,0,.85);
+	color: #ecf0f1;
+	margin-top: 30px;
+	width: 340px;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+a, a:hover, a:focus{
+	text-decoration: none;
+	text-transform: none;
+	color: inherit;
+}
+
+.box2 p{
+	margin: 0px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+
+.box3{
+	background: rgb(0,0,0,.85);
+	color: #ecf0f1;
+	margin-top: 30px;
+	width: 666px;
+	border-radius: 4px;
+	padding: 10px;
+	padding: 10px 20px 10px 20px;
+}
+
+.box3 p{
+	margin: 0px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	padding: 0px;
+	color: #7f8c8d;
+	margin-left: 15px;
+	margin-right: 60px;
+}
+
+.headingBox{
+	font-size: 20px !important;
+	color: #ecf0f1 !important;
+}
+
+.fa-angle-right{
+	text-align: center;
+	background: rgb(255,255,255,.3);
+	border-radius: 800px;
+	padding: 12px 17px 12px 17px;
+	font-size: 20px;
+	margin-top: -47px;
+}
+
+.mfs{
+	padding: 80px;
+}
+
+.mfsBox{
+	margin: 0px;
+	padding: 0px;
+	border-radius: 0px 0px 30px 30px;
+	background:#bdc3c7;
+	box-shadow: 1px 5px 20px 4px rgba(0,0,0,0.07);
+	width: 320px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.modelNameWithYear p{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 21px;
+	color: #576574;
+}
+
+.photoOfCar img{
+	width:320px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.props2{
+	margin-top: 15px;
+}
+
+.props2{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.props2 p{
+	font-size: 18px;
+}
+
+.price{
+	font-family: 'Soruce Code Pro', monospace;
+}
+
+.about p{
+	width: 299px;
+	margin-top: 30px;
+	margin-left: -62px;
+}
+
+.GoNow, .GoNow:focus, .GoNow:hover{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 40px;
+	font-family: 'Poppins', sans-serif;
+	background: #222f3e;
+	border-radius: 200px;
+	border: none;
+	padding: 7px 20px 7px 20px;
+	margin-left: 25px;
+}
+
+.gallary{
+	padding: 80px;
+	background: #ecf0f1;
+}
+
+.boxOfGallary{
+	background: #ffffff;
+	width: 620px;
+	height: 380px;
+}
+
+.gImg img, .gImg{
+	width: 620px;
+	height: 380px;
+}
+
+.gSelector{
+	background: #ffffff;
+	padding: 30px;
+	box-shadow: 1px 5px 20px 4px rgba(0,0,0,0.08);
+	cursor: pointer;
+}
+
+.noLeft{
+	cursor: not-allowed;
+	background: #c8d6e5;
+}
+
+.arrow{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 22vh;
+	background: none;
+	font-size: 40px;
+}
+
+.noMargin, .noMargin:hover, .noMargin:focus{
+	margin: 0px;
+	margin-top: 20px; 
+	margin-bottom: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.reviews{
+	padding: 80px;
+	background: #ffffff;
+}
+
+.rBox{
+	margin: 0px;
+	padding: 0px;
+	width: 350px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: rgba(0, 0, 0,.4) ;
+}
+
+.rBox p{
+	margin: 0px;
+	padding: 0px;
+}
+
+.rHeading{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.rRating{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	margin-right: 10px !important;
+	margin-top: 10px !important;
+}
+
+.rView{
+	margin: 0px;
+	padding: 0px;
+	width: 350px;
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 18px;
+	margin-top: 10px !important;
+	margin-left: 30px !important;
+	margin-right: 10px !important;
+	font-weight: 600;
+}
+
+.fa-star{
+	font-size: 19px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.subFooter{
+	background: rgba(0,0,0,.8);
+	padding: 40px;
+	height: 222px;
+}
+
+.section{
+	margin-left: 60px;
+	margin-right: 60px;
+	width: 120px;
+}
+
+footer li, footer ul li, footer ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.fHeading{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 19px;
+	margin: 0px;
+}
+
+.modi{
+	width: 160px;
+}
+
+.fa-angle-down{
+	font-size: 25px;
+	color: #ecf0f1;
+	cursor: pointer;
+}
+
+.arrowDown{
+	margin-top: -27px;
+	margin-right: -25px;
+}
+
+.footerFoot{
+	color: #c8d6e5;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.footerFoot li{
+	margin-top: 10px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.footerFoot li:hover{
+	color: #ecf0f1;
+}
+
+.fa-angle-down{
+	transform: rotate(180deg);
+	transition: .8s ease;
+}
+
+.changeDeg{
+	transition: .8s ease;
+	transform: rotate(0deg);
+}
+
+.mainFooter{
+	padding: 20px;
+	padding-top: 18px;
+	background: rgba(0,0,0,.9);
+	padding-bottom: 15px;
+}
+.icons .fab, .icons .fas{
+	color: #ecf0f1;
+	margin: 5px;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+.footerBranding{
+	font-family: Nexa Bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-top: 18px;
+	margin-bottom: 18px;
+	color: #ffffff;
+}
+
+#copyright{
+	font-family: Nexa Bold;
+	margin: 5px;
+	font-size: 18px;
+	color: rgba(255,255,255,0.3);
+}
+
+#notFound{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.forNotFound .wrapper{
+	padding: 50px;
+}
+
+.forNotFound h1{
+	font-family: Nexa Bold;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 25px;
+	font-weight: 800;
+}
+
+/* Mobile Phone Responisve */
+@media (min-width: 320px) and (max-width: 480px) {
+
+	.imgHeading{
+		display: none;
+	}
+
+	.gSelector{
+		width: 170%;
+		height: 100px;
+		margin: 0px;
+		margin-left: -65px;
+		margin-right: -65px;
+	}
+
+.boxOfGallary{
+	background: #ffffff;
+	width: 405px;
+	height: 380px;
+}
+
+.gImg img, .gImg{
+	width: 405px;
+	height: 380px;
+}
+	.arrow{
+		margin-top: 0px;
+		margin-top: 0vh;
+		margin-top: 0px;
+	}
+
+	.rBox{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.subFooter{
+		height: auto;
+	}
+}
+
+/* Browser Response */
+
+@media (max-width: 720px){
+	.imgHeading{
+		display: none;
+	}
+	.gSelector{
+		width: 170%;
+		height: 100px;
+		margin: 0px;
+		margin-left: -65px;
+		margin-right: -65px;
+	}
+
+.boxOfGallary{
+	background: #ffffff;
+	width: 405px;
+	height: 380px;
+}
+
+.gImg img, .gImg{
+	width: 405px;
+	height: 380px;
+}
+	.arrow{
+		margin-top: 0px;
+		margin-top: 0vh;
+		margin-top: 0px;
+	}
+	.rBox{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.subFooter{
+		display: none;
+		height: auto;
+	}
+}
